@@ -1,0 +1,92 @@
+.homeContainer {
+  width: 100%;
+  background-color: #f0f3bd;
+  height: 80px;
+  margin: 0 20px 0 0;
+  display: flex;
+  align-items: center;
+  padding: 30px 0 30px 0;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu > li {
+  list-style-type: none;
+  margin-right: 20px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu > li:hover {
+  background-color: #000103;
+  /* background-color: red; */
+
+  cursor: pointer;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #46237a;
+}
+
+.menu > li > a:hover {
+  color: white;
+}
+
+.search {
+  margin-left: 100px;
+}
+
+.search > input {
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.profile {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.profile > a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  color: #46237a;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile > a:hover {
+  background-color: #000103;
+  cursor: pointer;
+  color: white;
+}
+
+.profile .userContainer .content {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 40px;
+}
