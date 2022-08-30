@@ -1,0 +1,42 @@
+.category {
+  width: 100%;
+  height: 90px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 20px;
+  /* background-color: red; */
+}
+
+.listItems {
+  display: flex;
+  align-items: center;
+}
+
+.listItems > li {
+  list-style-type: none;
+  margin-right: 30px;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.listItems > li:hover {
+  background-color: #0a2463;
+}
+
+.listItems > li > a {
+  text-decoration: none;
+  color: #d81e5b;
+}
+.listItems > li > a:hover {
+  color: white;
+}
+
+.blogs {
+  margin-top: 30px;
+  width: 100%;
+  /* background-color: aqua; */
+}
